@@ -1,0 +1,26 @@
+{
+  "name": "madge-packages",
+  "version": "0.1.0",
+  "description": "View the dependencies between the packages in a monorepo",
+  "homepage": "https://github.com/cwellsx/madge-packages#readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "graphviz",
+    "graph",
+    "dependency",
+    "dependencies",
+    "package"
+  ],
+  "bin": {
+    "madge-packages": "./cli.js"
+  },
+  "author": "Chris Wells",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "graphviz": "^0.0.9"
+  }
+}
